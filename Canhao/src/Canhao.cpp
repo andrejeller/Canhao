@@ -13,6 +13,9 @@ void Canhao::SetImage(string nome)
 }
 
 void Canhao::Update(ofVec2f pivo) {	
+	/// -- futuramente canhão tera uma imagem que ira rotacionar 
+
+
 	//m_Ancora.rotate(m_angulo);
 	//m_posicao = m_Ancora;
 	//m_posicao += pivo;

@@ -29,13 +29,13 @@ void ofApp::keyPressed(int key) {
 	if (key == 32)
 		balas.push_back(Bala(canhao->m_posicao));
 
-	if (key == 357)
+	if (key == 357) // Vento para cima
 		vento.set(vento.x, vento.y - 0.2f);
-	if (key == 359)
+	if (key == 359) // Vento para baixo
 		vento.set(vento.x, vento.y + 0.2f);
-	if (key == 356)
+	if (key == 356) // Vento para esquerda
 		vento.set(vento.x - 0.2f, vento.y);
-	if (key == 358)
+	if (key == 358) // Vento para direita
 		vento.set(vento.x + 0.2f, vento.y);
 	//std::cout << key;
 }

@@ -24,10 +24,7 @@ public:
 	void windowResized(int w, int h);
 	void dragEvent(ofDragInfo dragInfo);
 	void gotMessage(ofMessage msg);
-
-
-
-
+	
 	Canhao* canhao = new Canhao(320, 320, 80);
 
 	ofVec2f vento;
